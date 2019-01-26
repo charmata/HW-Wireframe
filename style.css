@@ -4,6 +4,8 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
+    margin: auto;
 }
 header, nav, section, aside, footer {
     background: #ebebeb;
@@ -18,4 +20,8 @@ h1, p {
 }
 section {
     width: 495px;
+    float: left;
+}
+aside {
+    float: right;
 }
