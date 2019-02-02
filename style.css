@@ -27,14 +27,21 @@ h1, p {
     background: #ebebeb;
     padding: 20px;
 }
+article div > h1, article div > p {
+    margin: 10px;
+}
+article div > h1:first-child, article div > p:first-child {
+    margin-top: 0;
+}
 #content {
     display: flex;
 }
 section {
     width: 495px;
+    padding: 10px;
 }
 section > p {
-    padding-top: 10px;
+    padding: 5px;
 }
 aside {
     display: flex;
